@@ -1,0 +1,6 @@
+framework module Pods_kahveFaliUITests {
+  umbrella header "Pods-kahveFaliUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_kahveFali {
+  umbrella header "Pods-kahveFali-umbrella.h"
+
+  export *
+  module * { export * }
+}

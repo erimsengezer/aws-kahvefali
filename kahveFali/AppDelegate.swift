@@ -10,7 +10,7 @@ import UIKit
 import Parse
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
@@ -18,12 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        Parse.enableLocalDatastore()
+        
         let parseConfig = ParseClientConfiguration {
             $0.applicationId = "0caafa017e627658ac560708d6f33bc420a2a676"
             $0.clientKey = "efe6ccbcec0f5e51a964edaba8245910909257aa"
             $0.server = "http://34.247.186.161:80/parse"
         }
         Parse.initialize(with: parseConfig)
+        
+        PFFacebookUtils.initializeFacebook(applicationLaunchOptions: launchOptions)
         
         return true
     }
@@ -50,6 +54,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    @nonobjc func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any ]) -> Bool? {
+        
+        let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String
+        let annotation = options[UIApplication.OpenURLOptionsKey.annotation]
+        
+        let facebookHandler = ApplicationDelegate.shared.application(app, open: url, sourceApplication: sourceApplication, annotation: annotation)
+        
+        return facebookHandler
+        
+    }
 
 }
 

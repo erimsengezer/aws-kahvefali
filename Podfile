@@ -6,6 +6,16 @@ target 'kahveFali' do
   use_frameworks!
 
 pod 'Parse'
+pod 'MBProgressHUD', '~> 1.1.0'
+pod 'SCLAlertView'
+pod 'Parse/FacebookUtils'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+
+pod 'ALCameraViewController'
+pod 'ActionSheetPicker-3.0'
+
+    
 
   # Pods for kahveFali
 

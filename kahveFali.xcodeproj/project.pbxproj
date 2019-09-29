@@ -10,9 +10,22 @@
 		5E3418B9FAD59A4BA0FC616A /* Pods_kahveFaliTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F83F171E27911270D46A5C5 /* Pods_kahveFaliTests.framework */; };
 		6343523C294B015CD2A8B5EA /* Pods_kahveFaliUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CBA09FC56DAE7D021566C5 /* Pods_kahveFaliUITests.framework */; };
 		E3FEEA502F6D54AB9B34EEDB /* Pods_kahveFali.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069379040C5B59D4246141E3 /* Pods_kahveFali.framework */; };
+		E524DAA8233EAC8D00A1C64E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524DAA7233EAC8D00A1C64E /* RegisterViewController.swift */; };
+		E541B2F7233EBFC400112ED4 /* SendOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541B2F6233EBFC400112ED4 /* SendOrderViewController.swift */; };
+		E541B2F9233FC72200112ED4 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541B2F8233FC72200112ED4 /* MenuTableViewCell.swift */; };
+		E541B2FB233FCB6300112ED4 /* privacy-policy.png in Resources */ = {isa = PBXBuildFile; fileRef = E541B2FA233FCB6300112ED4 /* privacy-policy.png */; };
+		E541B2FD233FCBF800112ED4 /* policy.png in Resources */ = {isa = PBXBuildFile; fileRef = E541B2FC233FCBF800112ED4 /* policy.png */; };
+		E541B2FF233FCC3300112ED4 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = E541B2FE233FCC3300112ED4 /* logout.png */; };
+		E541B301233FF69400112ED4 /* SubmitOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541B300233FF69400112ED4 /* SubmitOrderTableViewController.swift */; };
+		E59CE83D233FF9BE002DD64B /* SubmitOrder1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59CE83C233FF9BE002DD64B /* SubmitOrder1TableViewCell.swift */; };
+		E59CE83F233FF9D0002DD64B /* SubmitOrder2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59CE83E233FF9D0002DD64B /* SubmitOrder2TableViewCell.swift */; };
+		E59CE841233FF9D9002DD64B /* SubmitOrder3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59CE840233FF9D8002DD64B /* SubmitOrder3TableViewCell.swift */; };
+		E59CE843233FF9E4002DD64B /* SubmitOrder4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59CE842233FF9E4002DD64B /* SubmitOrder4TableViewCell.swift */; };
+		E59CE845233FF9F5002DD64B /* SubmitOrder0TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59CE844233FF9F5002DD64B /* SubmitOrder0TableViewCell.swift */; };
+		E59CE8472340083D002DD64B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59CE8462340083D002DD64B /* Order.swift */; };
 		E5F68F6D233C013D006B7AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F68F6C233C013D006B7AC8 /* AppDelegate.swift */; };
-		E5F68F6F233C013D006B7AC8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F68F6E233C013D006B7AC8 /* FirstViewController.swift */; };
-		E5F68F71233C013D006B7AC8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F68F70233C013D006B7AC8 /* SecondViewController.swift */; };
+		E5F68F6F233C013D006B7AC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F68F6E233C013D006B7AC8 /* LoginViewController.swift */; };
+		E5F68F71233C013D006B7AC8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F68F70233C013D006B7AC8 /* MenuViewController.swift */; };
 		E5F68F74233C013D006B7AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F68F72233C013D006B7AC8 /* Main.storyboard */; };
 		E5F68F76233C013F006B7AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F68F75233C013F006B7AC8 /* Assets.xcassets */; };
 		E5F68F79233C013F006B7AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F68F77233C013F006B7AC8 /* LaunchScreen.storyboard */; };
@@ -47,10 +60,23 @@
 		85CBA09FC56DAE7D021566C5 /* Pods_kahveFaliUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kahveFaliUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50C2A7808CAE5BC0342E6E5 /* Pods-kahveFali.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kahveFali.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kahveFali/Pods-kahveFali.debug.xcconfig"; sourceTree = "<group>"; };
 		E31C093ABB19AF48A1F64191 /* Pods-kahveFaliUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kahveFaliUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kahveFaliUITests/Pods-kahveFaliUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E524DAA7233EAC8D00A1C64E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E541B2F6233EBFC400112ED4 /* SendOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendOrderViewController.swift; sourceTree = "<group>"; };
+		E541B2F8233FC72200112ED4 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuTableViewCell.swift; path = ../MenuTableViewCell.swift; sourceTree = "<group>"; };
+		E541B2FA233FCB6300112ED4 /* privacy-policy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "privacy-policy.png"; sourceTree = "<group>"; };
+		E541B2FC233FCBF800112ED4 /* policy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = policy.png; sourceTree = "<group>"; };
+		E541B2FE233FCC3300112ED4 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		E541B300233FF69400112ED4 /* SubmitOrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOrderTableViewController.swift; sourceTree = "<group>"; };
+		E59CE83C233FF9BE002DD64B /* SubmitOrder1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOrder1TableViewCell.swift; sourceTree = "<group>"; };
+		E59CE83E233FF9D0002DD64B /* SubmitOrder2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOrder2TableViewCell.swift; sourceTree = "<group>"; };
+		E59CE840233FF9D8002DD64B /* SubmitOrder3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOrder3TableViewCell.swift; sourceTree = "<group>"; };
+		E59CE842233FF9E4002DD64B /* SubmitOrder4TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOrder4TableViewCell.swift; sourceTree = "<group>"; };
+		E59CE844233FF9F5002DD64B /* SubmitOrder0TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOrder0TableViewCell.swift; sourceTree = "<group>"; };
+		E59CE8462340083D002DD64B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		E5F68F69233C013D006B7AC8 /* kahveFali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kahveFali.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F68F6C233C013D006B7AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5F68F6E233C013D006B7AC8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E5F68F70233C013D006B7AC8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E5F68F6E233C013D006B7AC8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E5F68F70233C013D006B7AC8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		E5F68F73233C013D006B7AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5F68F75233C013F006B7AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F68F78233C013F006B7AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,6 +140,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E541B302233FF78000112ED4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E5F68F70233C013D006B7AC8 /* MenuViewController.swift */,
+				E541B2F8233FC72200112ED4 /* MenuTableViewCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E59CE839233FF861002DD64B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E5F68F6E233C013D006B7AC8 /* LoginViewController.swift */,
+				E524DAA7233EAC8D00A1C64E /* RegisterViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E59CE83A233FF881002DD64B /* SendOrder */ = {
+			isa = PBXGroup;
+			children = (
+				E541B2F6233EBFC400112ED4 /* SendOrderViewController.swift */,
+			);
+			path = SendOrder;
+			sourceTree = "<group>";
+		};
+		E59CE83B233FF88A002DD64B /* SubmitOrder */ = {
+			isa = PBXGroup;
+			children = (
+				E541B300233FF69400112ED4 /* SubmitOrderTableViewController.swift */,
+				E59CE844233FF9F5002DD64B /* SubmitOrder0TableViewCell.swift */,
+				E59CE83C233FF9BE002DD64B /* SubmitOrder1TableViewCell.swift */,
+				E59CE83E233FF9D0002DD64B /* SubmitOrder2TableViewCell.swift */,
+				E59CE840233FF9D8002DD64B /* SubmitOrder3TableViewCell.swift */,
+				E59CE842233FF9E4002DD64B /* SubmitOrder4TableViewCell.swift */,
+			);
+			path = SubmitOrder;
+			sourceTree = "<group>";
+		};
 		E5F68F60233C013D006B7AC8 = {
 			isa = PBXGroup;
 			children = (
@@ -140,10 +205,16 @@
 			isa = PBXGroup;
 			children = (
 				E5F68F6C233C013D006B7AC8 /* AppDelegate.swift */,
-				E5F68F6E233C013D006B7AC8 /* FirstViewController.swift */,
-				E5F68F70233C013D006B7AC8 /* SecondViewController.swift */,
-				E5F68F72233C013D006B7AC8 /* Main.storyboard */,
+				E59CE839233FF861002DD64B /* Auth */,
+				E59CE83A233FF881002DD64B /* SendOrder */,
+				E541B302233FF78000112ED4 /* Menu */,
+				E59CE83B233FF88A002DD64B /* SubmitOrder */,
 				E5F68F75233C013F006B7AC8 /* Assets.xcassets */,
+				E5F68F72233C013D006B7AC8 /* Main.storyboard */,
+				E59CE8462340083D002DD64B /* Order.swift */,
+				E541B2FA233FCB6300112ED4 /* privacy-policy.png */,
+				E541B2FC233FCBF800112ED4 /* policy.png */,
+				E541B2FE233FCC3300112ED4 /* logout.png */,
 				E5F68F77233C013F006B7AC8 /* LaunchScreen.storyboard */,
 				E5F68F7A233C013F006B7AC8 /* Info.plist */,
 			);
@@ -276,9 +347,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E541B2FB233FCB6300112ED4 /* privacy-policy.png in Resources */,
+				E541B2FD233FCBF800112ED4 /* policy.png in Resources */,
 				E5F68F79233C013F006B7AC8 /* LaunchScreen.storyboard in Resources */,
 				E5F68F76233C013F006B7AC8 /* Assets.xcassets in Resources */,
 				E5F68F74233C013D006B7AC8 /* Main.storyboard in Resources */,
+				E541B2FF233FCC3300112ED4 /* logout.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,13 +380,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-kahveFali/Pods-kahveFali-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ALCameraViewController/ALCameraViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALCameraViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -380,9 +466,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F68F71233C013D006B7AC8 /* SecondViewController.swift in Sources */,
+				E5F68F71233C013D006B7AC8 /* MenuViewController.swift in Sources */,
 				E5F68F6D233C013D006B7AC8 /* AppDelegate.swift in Sources */,
-				E5F68F6F233C013D006B7AC8 /* FirstViewController.swift in Sources */,
+				E541B301233FF69400112ED4 /* SubmitOrderTableViewController.swift in Sources */,
+				E541B2F9233FC72200112ED4 /* MenuTableViewCell.swift in Sources */,
+				E5F68F6F233C013D006B7AC8 /* LoginViewController.swift in Sources */,
+				E524DAA8233EAC8D00A1C64E /* RegisterViewController.swift in Sources */,
+				E59CE83F233FF9D0002DD64B /* SubmitOrder2TableViewCell.swift in Sources */,
+				E59CE83D233FF9BE002DD64B /* SubmitOrder1TableViewCell.swift in Sources */,
+				E59CE843233FF9E4002DD64B /* SubmitOrder4TableViewCell.swift in Sources */,
+				E59CE845233FF9F5002DD64B /* SubmitOrder0TableViewCell.swift in Sources */,
+				E59CE8472340083D002DD64B /* Order.swift in Sources */,
+				E59CE841233FF9D9002DD64B /* SubmitOrder3TableViewCell.swift in Sources */,
+				E541B2F7233EBFC400112ED4 /* SendOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +661,22 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"SCLAlertView\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.erimsengezer.kahveFali;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -583,6 +695,22 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"SCLAlertView\"",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.erimsengezer.kahveFali;
 				PRODUCT_NAME = "$(TARGET_NAME)";
